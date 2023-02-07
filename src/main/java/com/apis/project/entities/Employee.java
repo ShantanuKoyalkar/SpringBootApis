@@ -7,6 +7,10 @@ import jakarta.persistence.Id;
 @Entity
 public class Employee {
 
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
